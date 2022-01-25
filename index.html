@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Curriculum Vitae</h1>
+        <div class="row">
+            <div id="portada" class="col-12 row presentacion">
+                <div class="col-12 col-md-6">
+                    <figure>
+                        <img style="max-width: 400px; margin-left: 200px;" src="cara.svg" alt="">
+                    </figure>
+                </div>
+                <div id="titulos" class="col-12 col-md-6">
+                    <h3>Alemberg - Programador Web</h3>
+                </div>
+            </div>
+            <ul id="navegador" class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#portada">Portada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dPersonales">Datos Personales</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dAcademicos">Datos Academicos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#dInteres">Datos de Interes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#expL">Experiencia Laboral</a>
+                </li>
+
+            </ul>
+
+            <div style="background-color: bisque;" class="col-12 col-md-6">
+
+                <div id="dPersonales" class="col-12">
+                    <h2>Datos personales <i class="fas fa-user-circle"></i></h2>
+                    <dl>
+                        <dt>Nonmbre <i style="color: black;" class="bi bi-person-lines-fill"></i></dt>
+                        <dd>Alemberg Bejar Ccama</dd>
+                        <dt>Direccion <i style="color: black;" class="bi bi-geo-alt-fill"></i></dt>
+                        <dd>Calle las Torres nº6</dd>
+                        <dt>Telefono <i style="color: black;" class="bi bi-telephone-fill"></i></dt>
+                        <dd>678 345 213</dd>
+                        <dt>Correo <i style="color: black;" class="bi bi-envelope-fill"></i></dt>
+                        <dd>bejar.cc@gmail.com</dd>
+                    </dl>
+                </div>
+                <div id="dInteres" class="col-12">
+                    <h2>Datos de Interes <i class="fas fa-quidditch"></i></h2>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Aficiones
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, fugit molestias
+                                    beatae quae saepe soluta laudantium, expedita sequi velit tempore sit inventore
+                                    aliquid recusandae deserunt aliquam, est ipsum ullam? Itaque!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Premios, becas y reconocimientos académicos.
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Vehículo y tipo de carnet.
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Disponibilidad horaria
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Voluntariados
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div style="background-color: whitesmoke;" class="col-12 col-md-6">
+                <div id="dAcademicos" class="col-12">
+                    <h2>Datos Academicos <i class="fas fa-school"></i></h2>
+                    <dl>
+                        <dt>Bachillerato</dt>
+                        <dd>I.E.S Fernando Zobel</dd>
+                        <dt>Programador Web</dt>
+                        <dd>Atperson</dd>
+                        <dt>Operario de alamacén</dt>
+                        <dd>Cruz Roja</dd>
+                        <dt>Curso de radio-frecuencia</dt>
+                        <dd>COE</dd>
+
+
+                </div>
+                <div id="expL" class="col-12">
+                    <h2>
+                        Experiencia Laboral <i class="fas fa-briefcase"></i>
+                    </h2>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Cargo</th>
+                                <th scope="col">Nombre de la Empresa</th>
+                                <th scope="col">Tareas destacables</th>
+                                <th scope="col">Fechas</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mozo de alamacen</td>
+                                <td>Alcampo</td>
+                                <td>Frentear, Reponer, Balizaje de Precios, Ruptura.</td>
+                                <td>Septiembre-Octubre</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Mozo de alamace</td>
+                                <td>Cervezas Cuenca, Dawat</td>
+                                <td>Preparacion de pedidos, Empaqueatdo de botellas, Manejo de Carretilla Elevadora</td>
+                                <td>Octubre-Diciembre</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div></div>
+        </div>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="text-muted">©Alemberg 2022 Redes Sociales</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a target="_blank" class="text-muted" href="https://twitter.com/?lang=es"><i
+                            class="bi bi-twitter"></i></a></li>
+                <li class="ms-3"><a target="_blank" class="text-muted" href="https://www.instagram.com/?hl=es"><i class="bi bi-instagram"></i></a></li>
+                <li class="ms-3"><a target="_blank" class="text-muted" href="https://es.linkedin.com/"><i class="bi bi-linkedin"></i></a></li>
+                <li class="ms-3"><a target="_blank" class="text-muted" href="https://github.com/alucard1024"><i
+                            class="bi bi-github"></i></a></li>
+            </ul>
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="bootstrap.js"></script>
+
+</body>
+
+</html>
